@@ -3,3 +3,4 @@ models/
 OFA/
 OFA-tiny/
 *.zip
+__pycache__

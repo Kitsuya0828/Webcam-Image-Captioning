@@ -7,7 +7,7 @@ Generated captions are displayed in real time on the terminal.
 
 
 # Requirement
-* Python 3.8
+* Python >= 3.7
 
 GPU preferred, but works without
 
