@@ -37,8 +37,12 @@ mv vocab.pkl models
 
 python main_fast.py
 ```
+### Sample Input
+![](test.jpg "a man in a suit and tie with a tie")
 
-
+```
+=> a man in a suit and tie with a tie
+```
 
 
 ## 2. Accurate Model
@@ -51,11 +55,18 @@ python main_fast.py
 
 
 ```bash
-git clone https://github.com/OFA-Sys/OFA.git
+git clone --single-branch --branch feature/add_transformers https://github.com/OFA-Sys/OFA.git
 pip install OFA/transformers/
 
 git lfs install
 git clone https://huggingface.co/OFA-Sys/OFA-tiny
 
 python main_accurate.py
+```
+
+### Sample Input
+![](test.jpg "a man is sitting at a table")
+
+```
+=> a man is sitting at a table
 ```
